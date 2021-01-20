@@ -10,6 +10,7 @@ import (
   "gorm.io/gorm"
 )
 
+// https://github.com/mutecomm/go-sqlcipher
 db, err := gorm.Open(sqlcipher.Open("gorm.db"), &gorm.Config{})
 ```
 
